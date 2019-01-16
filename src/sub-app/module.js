@@ -8,4 +8,3 @@ import { SubAppService } from './service'
   providers: [SubAppService]
 })
 export class SubAppModule {}
-

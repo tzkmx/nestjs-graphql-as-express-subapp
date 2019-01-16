@@ -6,4 +6,3 @@ export class SubAppService {
     return 'Hello from the Nest\n'
   }
 }
-

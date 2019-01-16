@@ -1,4 +1,3 @@
-/* eslint-env jest */
 import { Test } from '@nestjs/testing'
 import { SubAppController } from './controller'
 import { SubAppService } from './service'
