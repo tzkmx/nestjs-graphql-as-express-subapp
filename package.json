@@ -1,0 +1,42 @@
+{
+  "name": "nestjs-graphql-as-express-subapp",
+  "version": "0.0.1",
+  "description": "Demo of NestJs/graphQL server embedded in vanilla express app",
+  "main": "src/app.js",
+  "dependencies": {
+    "@nestjs/common": "^5.5.0",
+    "@nestjs/core": "^5.5.0",
+    "express": "^4.16.4",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.3.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "scripts": {
+    "start": "babel-node src/app.js",
+    "build": "babel src -d dist -s inline",
+    "build:run": "npm run build && node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tzkmx/nestjs-graphql-as-express-subapp.git"
+  },
+  "keywords": [
+    "nestjs",
+    "graphql",
+    "express",
+    "subapp"
+  ],
+  "author": "Jesus E. Franco Martinez <jefrancomix@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tzkmx/nestjs-graphql-as-express-subapp/issues"
+  },
+  "homepage": "https://github.com/tzkmx/nestjs-graphql-as-express-subapp#readme"
+}
