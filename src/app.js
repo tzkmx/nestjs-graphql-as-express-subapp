@@ -3,7 +3,7 @@ import express from 'express'
 
 const app = express()
 
-app.get('/', (req, res) => res.send('hello express'))
+app.get('/', (req, res) => res.send('hello express\n'))
 
 async function mountSubApp (app, mountPath, subAppBoot) {
   const subApp = await subAppBoot()
