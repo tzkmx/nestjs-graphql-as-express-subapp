@@ -15,4 +15,3 @@ async function mountSubApp (app, mountPath, subAppBoot) {
 
 mountSubApp(app, '/sub', bootstrapSubApp)
   .then(app => app.listen(4000))
-
